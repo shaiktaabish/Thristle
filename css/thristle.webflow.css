@@ -1,0 +1,30 @@
+.body {
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Montserrat, sans-serif;
+}
+
+.lottie-animation {
+  height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo.w--current {
+  position: absolute;
+  left: 3%;
+  top: 4%;
+  right: auto;
+  bottom: auto;
+  z-index: 99999;
+  display: block;
+  width: 100%;
+  max-width: 200px;
+}
+
+@media screen and (max-width: 479px) {
+  .logo.w--current {
+    top: 3%;
+    max-width: 150px;
+  }
+}
